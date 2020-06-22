@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Arvo', serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    height: 1000px;
+    background-image: url('../images/Landscape 2.jpg');
+    background-repeat: no-repeat;
+    padding: 50px 10%;
+}
+
+header .for-nav img {
+    height: 60px;
+}
+
+header .for-nav nav {
+    margin-top: 20px;
+    float: right;
+    color: white;
+}
+
+header .for-nav nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+header .for-nav nav a:last-child {
+    margin-right: 0px;
+}
+
+header .for-nav nav a:hover {
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+}
+
+header .for-title {
+    color: white;
+    margin-top: 220px
+}
+
+header .for-title h1 {
+    font-size: 120px;
+}
+
+header .for-title h4 {
+    font-size: 32px;
+}
+
+footer {
+    clear: both;
+    margin-top: 20px;
+    padding: 60px;
+    background-color: #364EB9;
+    color: white;
+    overflow: auto;
+}
+
+footer .first-footer-row .for-contact-us {
+    float: left;
+}
+
+footer .first-footer-row .for-subscribe {
+    float: right;
+}
+
+footer .first-footer-row .for-subscribe form input {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 5px;
+}
+
+footer .first-footer-row .for-subscribe form button {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #228FCF;
+    color: white;
+}
+
+footer .first-footer-row .for-subscribe form button:hover {
+    background-color: darkorange;
+    transition: 0.5s;
+}
+
+footer .second-footer-row {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+    border-top: 1px solid white;
+}
+
+footer .second-footer-row div {
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+}
+
+footer .second-footer-row div:first-child {
+    margin-left: 0%;
+}
+
+footer .second-footer-row div:last-child {
+    width: 40%;
+}
+
+footer .second-footer-row .first-column ul {
+    margin-top: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+footer .second-footer-row .first-column ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .second-footer-row .second-column ul {
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+footer .second-footer-row .second-column ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+footer .second-footer-row .second-column ul li:first-child {
+    margin-left: 0px;
+}
+
+footer .second-footer-row .third-column p {
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+#for-copyright {
+    clear: both;
+    text-align: center;
+    background-color: darkgray;
+}
+
+#for-copyright p {
+    padding: 10px;
+    color: white;
+}
